@@ -1,0 +1,26 @@
+data;
+
+# define the types
+set FISH:= salmon tuna;
+set BAIT:= standard premium;
+set NUTRIENT:= fat protein;
+
+# parameters
+param cost_per_bait:=
+    standard 5
+    premium  7;
+
+param nutrient_needed:=
+    fat     360
+    protein 240;
+
+# matrix
+param nutrient_per_fish: tuna salmon:=
+    fat     20  20
+    protein 20  5;
+
+param fish_per_bait: tuna salmon:=
+    standard 1  2
+    premium  3  0;
+
+end;

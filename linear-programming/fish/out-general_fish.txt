@@ -1,0 +1,39 @@
+Problem:    general_fish
+Rows:       3
+Columns:    2
+Non-zeros:  6
+Status:     OPTIMAL
+Objective:  cost = 34 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 cost         B             34                             
+     2 minumum_nutrient[fat]
+                    NL           360           360                        0.05 
+     3 minumum_nutrient[protein]
+                    NL           240           240                   0.0666667 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[standard]  B              4                             
+     2 x[premium]   B              2                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 8.88e-16 on column 1
+        max.rel.err = 8.07e-17 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

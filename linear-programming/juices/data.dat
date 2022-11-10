@@ -1,0 +1,16 @@
+# data for the juices problem
+data;
+
+# define the set of juices
+set JUICES:= unizumo pina;
+
+# define the parameters
+param profit:=
+    unizumo 1.25
+    pina 2.05;
+
+param concentrated:=
+    unizumo 0.2
+    pina 0.5;
+
+end;
