@@ -1,8 +1,3 @@
-First install Matprog (GLP)
-```
-sudo apt install glpk-utils
-```
-
 In `simple_juice.mod`, you find the definition of the specific problem, you can run it with:
 ```
 glpsol -m simple_juice.mod -o out-simple_juice.txt
